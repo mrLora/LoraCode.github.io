@@ -1,0 +1,189 @@
+body,
+html {
+
+  color: #666;
+  font-family: "Merienda";
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  line-height: 2em;
+  margin: 0, auto;
+
+}
+
+.navMenu {
+  width: 98.9%;
+  height: 100px;
+  background-color: black;
+  z-index: 100;
+  position: fixed;
+}
+
+.navMenu ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navMenu ul li {
+  padding: 10px 30px;
+  color: #ccc;
+  font-size: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navMenu ul li:hover {
+  color: white;
+  font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .nav {
+    height: auto;
+  }
+
+  .nav .navTitle {
+    text-align: left;
+    width: 100%;
+  }
+
+  .nav .navMenu {
+    width: 100%
+  }
+
+  .nav .navMenu {
+    justify-content: space-around;
+  }
+
+  .nav .navMenu ul li {
+    width: 20%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+
+  }
+}
+
+.pic,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.85;
+  position: relative;
+
+}
+
+.pic {
+
+  background-image: url('../Images/image1.png');
+  min-height: 100%;
+
+}
+
+.pic2 {
+
+  background-image: url('../Images/Project1.png');
+  min-height: 800px;
+
+}
+
+.pic3 {
+
+  background-image: url('../Images/Project2.png');
+  min-height: 800px;
+
+}
+
+.pic4 {
+
+  background-image: url('../Images/Project3.png');
+  min-height: 800px;
+
+}
+
+.pic5 {
+
+  background-image: url('../Images/Project4.png');
+  min-height: 800px;
+
+}
+
+.section {
+
+  /* background-color: transparent; */
+  color: rgb(89, 89, 89);
+  /* opacity: 0.8; */
+  padding: 50px 80px;
+  text-align: center;
+
+
+}
+
+
+.text {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 10px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+
+}
+
+.text .border {
+
+  background-color: #111;
+  color: white;
+
+}
+
+.text .border {
+
+  background-color: transparent;
+
+}
+
+.contact {
+
+  color: white;
+
+}
+
+a {
+
+  color: rgba(0, 0, 0, 0.85);
+  text-decoration: none;
+
+}
+
+ul {
+
+  padding: 10px;
+
+}
+
+li {
+
+  display: inline;
+  padding: 0px 10px 0px 10px;
+
+}
+
+#contactMe {
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+  padding-top: 30%;
+  padding-left: 44%;
+}
